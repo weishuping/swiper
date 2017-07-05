@@ -1,0 +1,197 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, img, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+ul, li {
+    list-style: none;
+}
+
+html, body {
+    height: 100%;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #68dacb;
+}
+.swiper-slide{
+    width:100%;
+    height:100%;
+    position: relative;
+    background: #68dacb;
+}
+img{
+    display:block;
+}
+.swiper-pagination-bullet {
+    width: 6px;
+    height: 6px;
+    background: #fff;
+    opacity: .4;
+}
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+@-webkit-keyframes start {
+    0%,30% {opacity: 0;-webkit-transform: translate(0,10px)}
+    60% {opacity: 1;-webkit-transform: translate(0,0)}
+    100% {opacity: 0;-webkit-transform: translate(0,-8px)}
+}
+@-webkit-keyframes cloud {
+    0%,100% {-webkit-transform: translate(20px,0)}
+    25% {-webkit-transform: translate(0,0)}
+    50% {-webkit-transform: translate(-20px,0)}
+    75% {-webkit-transform: translate(0,0)}
+}
+@-webkit-keyframes text {
+    0%,100% {-webkit-transform: rotate(2deg); -webkit-transform-origin: center top}
+    25% {-webkit-transform: rotate(0deg); -webkit-transform-origin: center top}
+    50% {-webkit-transform: rotate(-2deg); -webkit-transform-origin: center top}
+    75% {-webkit-transform: rotate(0deg); -webkit-transform-origin: center top}
+}
+.array{
+    width:6%;
+    height:3%;
+    position:absolute;
+    bottom:2%;
+    left:47%;
+    z-index:999;
+    -webkit-animation: start 1.5s infinite ease-in-out;
+}
+.backHome, .backHome2, .backList {
+    position:absolute;
+    top:2%;
+    left:2%;
+    padding-left: 29px;
+    background: url(../images/backhome.png) no-repeat;
+    background-size: 35%;
+}
+/*员工顾问*/
+.staff2 {
+    background: #f9f5f0;
+}
+.title {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    background: #fed500;
+    color: #fff;
+    font-size: 1.2em;
+}
+.list-item {
+    background: #fff;
+    margin-bottom: 10px;
+}
+.list-item:active {
+    background: #cecece;
+}
+.number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    border: 1px solid #fed500;
+    background: #fed500;
+    border-radius: 505%;
+    margin: 0 15px;
+}
+.item {
+    width: 70%;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 15px 0;
+    font-size: 1em;
+    height: 42px;
+    position: relative;
+}
+.item p {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+    position: absolute;
+    bottom: 15px;
+    right: 0;
+    font-size: 0.8em;
+    color: #a9a9a9;
+}
+.to-detail {
+    display: inline-block;
+    margin-left: 3%;
+}
+.ani, .txt{
+    position:absolute;
+    z-index: 10;
+}
+
+/*map1*/
+.map1_bg {width: 95%; position: absolute;  top: 0;  left: 0}
+.map1_rz {width: 30%;  top: 14%;  left: 12%}
+.map1_title {width: 70%; top: 29%;  left: 15%}
+.map1_girl {width: 56%;  bottom: 5%;  left: 22%}
+
+/*map2*/
+.map2_bg {width: 100%;  height: 100%;  position: absolute;  top: 0;  left: 0}
+.map2_cloud1 {width: 15%;  top: 8%;  left: 5%; -webkit-animation: cloud 3s infinite linear}
+.map2_cloud2 {width: 12%;  top: 5%;  left: 20%; -webkit-animation: cloud 3s infinite linear}
+.map2_s1 {width: 55%; top: 25%;  left: 5%}
+.map2_s2 {width: 55%;  top: 50%;  right: 5%}
+.map2_s3 {width: 55%;  top: 75%;  left: 5%}
+
+/*map3 4 5*/
+.map3_title {width: 90%; top: 5%;  left: 5%}
+.map3_text {width: 80%; top: 28%;  left: 10%}
+.map3_text p {
+    margin: 60px 15px 15px;
+    padding: 0;
+}
+.alltext {
+    font-family: tahoma, arial, 'Hiragino Sans GB', 'Microsoft YaHei', '\5b8b\4f53', sans-serif;
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+    margin: 0;
+    background: #fff;
+}
+.allText p {
+    text-indent: 15px;
+}
+.cailiao li:before{
+    content: "";
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+}
+.map4_ver {height: 70%; bottom: 0; left: 3%}
+.map4_ver2 {   
+    height: 37%;
+    top: 20%;
+    left: 3%;
+}
+.map4_text1 {width: 72%; top: 25%; left: 13%; padding: 15px;}
+.map4_text2 {width: 72%; bottom: 10%; left: 13%; padding: 15px;}
+.map5_text {width: 74%; top: 25%; left: 12%; z-index: 5;  padding: 30px 15px; background: #fff;}
+
+/*map6*/
+.map6_title {width: 70%; top: 5%;  left: 15%}
+.map6_text {width: 80%; top: 20%;  left: 10%; background: #fff; padding: 20px 10px; border-radius: 20px;}
+.map6_man {width: 56%; bottom: 5%;  left: 22%}
+
+/*map7*/
+.map7_bg {width: 100%;  height: 100%;  position: absolute;  top: 0;  left: 0}
+.map7_text1 {width: 30%; top: 16%; right: 3%;}
+.map7_text2{width: 26%; top: 46%; left: 10%;}
+.map7_text3{width: 30%; top: 55%; right: 12%;}
