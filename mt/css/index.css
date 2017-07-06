@@ -67,12 +67,17 @@ img{
     -webkit-animation: start 1.5s infinite ease-in-out;
 }
 .backHome, .backHome2, .backList {
+    color: #666;
     position:absolute;
     top:2%;
     left:2%;
     padding-left: 29px;
     background: url(../images/backhome.png) no-repeat;
     background-size: 35%;
+}
+.backHome2 {
+    margin-top: 2px;
+    background-size: 31%;
 }
 /*员工顾问*/
 .staff2 {
@@ -85,7 +90,7 @@ img{
     line-height: 50px;
     background: #fed500;
     color: #fff;
-    font-size: 1.2em;
+    font-size: 22px;
 }
 .list-item {
     background: #fff;
@@ -112,7 +117,7 @@ img{
     display: inline-block;
     vertical-align: middle;
     padding: 15px 0;
-    font-size: 1em;
+    font-size: 16px;
     height: 42px;
     position: relative;
 }
@@ -123,7 +128,7 @@ img{
     position: absolute;
     bottom: 15px;
     right: 0;
-    font-size: 0.8em;
+    font-size: 12px;
     color: #a9a9a9;
 }
 .to-detail {
@@ -178,11 +183,11 @@ img{
 .map4_ver {height: 70%; bottom: 0; left: 3%}
 .map4_ver2 {   
     height: 37%;
-    top: 20%;
+    top: 19%;
     left: 3%;
 }
 .map4_text1 {width: 72%; top: 25%; left: 13%; padding: 15px;}
-.map4_text2 {width: 72%; bottom: 10%; left: 13%; padding: 15px;}
+.map4_text2 {width: 72%; bottom: 14%; left: 13%; padding: 15px;}
 .map5_text {width: 74%; top: 25%; left: 12%; z-index: 5;  padding: 30px 15px; background: #fff;}
 
 /*map6*/
