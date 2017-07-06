@@ -187,8 +187,8 @@ img{
     left: 3%;
 }
 .map4_text1 {width: 72%; top: 25%; left: 13%; padding: 15px;}
-.map4_text2 {width: 72%; bottom: 14%; left: 13%; padding: 15px;}
-.map5_text {width: 74%; top: 25%; left: 12%; z-index: 5;  padding: 30px 15px; background: #fff;}
+.map4_text2 {width: 72%; bottom: 9%; left: 13%; padding: 15px;}
+.map5_text {width: 72%; top: 25%; left: 12%; z-index: 5;  padding: 20px 15px; background: #fff;}
 
 /*map6*/
 .map6_title {width: 70%; top: 5%;  left: 15%}
