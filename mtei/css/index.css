@@ -75,7 +75,8 @@ html, body {
     left: 0px;
     z-index: 1;
 }
-.swiper-slide1>img:nth-child(3) {
+
+.swiper-slide1>img:nth-child(4), .swiper-slide1>img:nth-child(3) {
     position: absolute;
     top: 88%;
     width: 237px;
@@ -84,7 +85,11 @@ html, body {
     z-index: 3;
     margin: 0 auto;
 }
-.swiper-slide1>img:nth-child(4) {
+.swiper-slide1>img:nth-child(3) {
+    top: 83%;
+    width: 100px;
+}
+.swiper-slide1>img:nth-child(5) {
     position: absolute;
     bottom: -2%;
     width: 102%;
@@ -93,7 +98,7 @@ html, body {
     z-index: 5;
     margin: 0 auto;
 }
-.swiper-slide1>img:nth-child(5) {
+.swiper-slide1>img:nth-child(6) {
     position: absolute;
     top: 8%;
     width: 190%;
@@ -101,7 +106,7 @@ html, body {
     z-index: 2;
     margin: 0 auto;
 }
-.swiper-slide1>img:nth-child(6) {
+.swiper-slide1>img:nth-child(7) {
     position: absolute;
     top: 64%;
     right: 0;
@@ -160,8 +165,8 @@ html, body {
     width: 100%;
 }
 .swiper-slide3 .page3-info {
-    width: 78%;
-    margin: 9% auto 0;
+    width: 94%;
+    margin: 6% auto 0;
 }
 .swiper-slide3 .con3 {
     margin-top: 2%;
