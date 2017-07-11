@@ -71,7 +71,7 @@ html, body {
 .swiper-slide1>img:nth-child(2) {
     width: 100%;
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 0px;
     z-index: 1;
 }
