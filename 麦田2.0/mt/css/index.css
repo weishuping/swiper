@@ -67,12 +67,13 @@ img{
     -webkit-animation: start 1.5s infinite ease-in-out;
 }
 .backHome, .backHome2, .backList {
-    width: 32px;
-    height: 28px;
+    z-index: 10;
+    width: 30px;
+    height: 25px;
     color: #666;
     position:absolute;
-    top:2%;
-    left:2%;
+    top:1%;
+    left:4%;
     background: url(../images/backhome.png) no-repeat;
     background-size: 100% 100%;
 }
@@ -144,7 +145,7 @@ img{
 /*map1*/
 .map1_bg {width: 95%; position: absolute;  top: 0;  left: 0}
 .map1_rz {width: 30%;  top: 2%;  left: 44%}
-.map1_title {width: 70%; top: 29%;  left: 15%}
+.map1_title {width: 70%; top: 27%;  left: 15%}
 .map1_girl {width: 56%;  bottom: 5%;  left: 22%}
 
 /*map2*/
@@ -160,7 +161,7 @@ img{
 .map3_text {width: 80%; top: 28%;  left: 10%}
 .map4_ver {height: 70%; bottom: 0; left: 3%}
 .map4_ver2 {   
-    height: 28%;
+    height: 34%;
     top: 28%;
     left: 3%;
 }

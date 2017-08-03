@@ -108,7 +108,7 @@ html, body {
 }
 .swiper-slide1>img:nth-child(7) {
     position: absolute;
-    top: 61%;
+    top: 64%;
     right: 0;
     z-index: 2;
     width: 180%;
@@ -192,32 +192,13 @@ html, body {
 .swiper-slide5 .welcome {
     width: 75%;
     position: absolute;
-    top: 58%;
+    top: 62%;
     left: 0;
     right: 0;
     margin: auto;
     z-index: 1;
 }
-.swiper-slide5>ul {
-    width: 90%;
-    position: absolute;
-    top: 8%;
-    left: 0;
-    right: 0;
-    margin: auto;
-    z-index: 2;
-}
-.swiper-slide5>ul>li {
-    width: 100%;
-    float: left;
-    z-index: 2;
-}
-.swiper-slide5>ul>li>img {
-    width: 23%;
-    float: left;
-    margin: 1%;
-    z-index: 2;
-}
+
 
 /*----------竖屏----------*/
 
